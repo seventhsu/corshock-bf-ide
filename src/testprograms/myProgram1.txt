@@ -1,0 +1,38 @@
+Gag program that prints "I LIKE FEET"
+
+++++++++         sets c0 to 8 for a loop counter
+[>+++++++++<-].  creates a loop that adds 9 to c1 8 times for a total of 72 (and clears c0 in the process)
+
+c1 will be our dynamic character cell
+
+>>++++          sets c2 to 4 for a loop counter
+[>++++++++<-]   creates a loop that adds 8 to c3 4 times for a total of 32 (and clears c2 in the process)
+>[<+>-]         moves c3 into c2 and stops pointer at c3
+
+c2 will be our space key
+
+<<+.            returns to c1 and adds 1 making it 73 (I in ascii) and then prints it out
+
+>.              goes to c2 and prints a space
+
+<+++.           goes to c1 and changes it to 76 (L in ascii) and prints it out
+
+---.            changes c1 back to 73 (I in ascii) and prints it out
+
+++.             changes c1 to 75 (K in ascii) and prints it out
+
+------.         changes c1 to 69 (E in ascii) and prints it out
+
+>.              moves to c2 and prints a space
+
+<+.             moves back to c1 and changes it to 70 (F in ascii) and prints it out
+
+-..             changes c1 to 69 (E in ascii) and prints it out twice
+
++               makes c1 70 and sets us up for the final loop
+
+<++             sets c0 (which is empty) to 2 as a loop counter
+
+[>+++++++<-]    adds 7 to c1 2 times for a total of 14 (and clears c0 in the process)
+
+>.              moves to c1 (which now holds 84 or T in ascii) and prints it out
