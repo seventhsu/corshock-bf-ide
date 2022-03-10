@@ -11,4 +11,8 @@ package com.cside.ui;
 public class IOContainer {
     String commaInputTransfer;
     String compilerOutputTransfer;
+    
+    public String getCommaInput() {
+        return commaInputTransfer;
+    }
 }
