@@ -15,4 +15,8 @@ public class IOContainer {
     public String getCommaInput() {
         return commaInputTransfer;
     }
+    
+    public void setCommaInput(String input) {
+        commaInputTransfer = input;
+    }
 }
