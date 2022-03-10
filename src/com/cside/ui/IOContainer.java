@@ -9,14 +9,28 @@ package com.cside.ui;
  * @author Ali
  */
 public class IOContainer {
-    String commaInputTransfer;
-    String compilerOutputTransfer;
+    String commaInputTransfer = "";
+    boolean newInput = false;
+    String compilerOutputTransfer = "";
+    boolean newOutput = false;
     
     public String getCommaInput() {
+        newInput = false;
         return commaInputTransfer;
     }
     
-    public void setCommaInput(String input) {
+    public void newCommaInput(String input) {
         commaInputTransfer = input;
+        newInput = true;
+    }
+    
+    public String getCompilerOutput() {
+        newOutput = false;
+        return compilerOutputTransfer;
+    }
+    
+    public void newCompilerOutput(String input) {
+        commaInputTransfer = input;
+        newOutput = true;
     }
 }

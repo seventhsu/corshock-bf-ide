@@ -88,7 +88,7 @@ public class Compiler {
         return stackPointer;
     }
     
-    // Counts the square brackets and throws an exception if there is more of one than the other
+    // Counts the square brackets and throws an exception if some do not match
     private void checkSquareBrackets(String code) throws IllegalArgumentException {
         int leftBraces = 0;
         int rightBraces = 0;
