@@ -19,10 +19,15 @@ public class IOContainer {
         return commaInputTransfer;
     }
     
+    public boolean isThereNewInput() {
+        return newInput;
+    }
+    
     public void newCommaInput(String input) {
         commaInputTransfer = input;
         newInput = true;
     }
+    
     
     public String getCompilerOutput() {
         newOutput = false;
@@ -32,5 +37,9 @@ public class IOContainer {
     public void newCompilerOutput(String input) {
         commaInputTransfer = input;
         newOutput = true;
+    }
+    
+    public boolean isThereNewOutput() {
+        return newOutput;
     }
 }

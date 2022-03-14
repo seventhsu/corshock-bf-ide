@@ -1,12 +1,12 @@
-Java-based BF Compiler (by Seventhsu)
+Java-based BF Compiler (by Ali A.)
 ----------------------------
-This Java program compiles and runs programs written in the minimalistic programming language BF, or Brainfuck. It will also attempt to catch any program errors, and print them into the console.
+This Java program compiles and runs programs written in the minimalistic programming language BF, or Brainfuck. It will also attempt to catch and highlight any program errors, just like an IDE.
 
 You only need to paste your code in the "Code" box in the GUI. Any characters that are not "<>+-.,[]" will be ignored, so you can add comments or newlines without worrying about special demarcation characters.
 
-After you have added your code, hit the "Run Code" button. This will run the code, and display any errors.
+After you have added your code, hit the "Run Code" button. This will run the code, and display any compile-time or runtime errors.
 
-If there is a "," somewhere in your code, the program will pause and ask for input with the "Input: " statement. Enter your desired input and hit the "Enter" key.
+If there is a "," somewhere in your code, the program will pause and ask for a single ASCII character of input in the "Input" box. Enter your desired input and hit the "Enter" key.
 
 Here's a quick error translation guide:
 ----------------------------
