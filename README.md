@@ -1,4 +1,4 @@
-Java-based BF Compiler
+Corshock, the Java-based BF Compiler
 ----------------------------
 This Java program compiles and runs programs written in the minimalistic programming language BF, or Brainfuck. It will also attempt to catch and highlight any program errors, just like an IDE.
 
